@@ -1,0 +1,400 @@
+.value-indicator__item {
+  transition: all ease 0.3s; }
+  .value-indicator__item--is-active, .value-indicator__item--is-hover:hover {
+    box-shadow: 1px 1px 16px rgba(100, 100, 200, 0.2);
+    background: #fff;
+    /* border-radius: 30px; 
+            padding: 10px 0;*/
+    cursor: pointer; }
+
+/* All Territory fill*/
+#map__countries .map__territory {
+  fill: #D2E5EB; }
+
+.map__range-color-1 {
+  fill: #D2E5EB !important; }
+
+.map__range-color-2 {
+  fill: #9AC6D4 !important; }
+
+.map__range-color-3 {
+  fill: #619BAE !important; }
+
+.map__range-color-4 {
+  fill: #2A6B80 !important; }
+
+/* Group Contry Flag */
+/* Opacity 0  Hidden Flag and Value*/
+.hilight-country__flag,
+.hilight-country__value {
+  opacity: 0; }
+
+/* Base animate stroke - line and circle*/
+.hilight-country__circle,
+.hilight-country__line {
+  stroke-dasharray: 210;
+  stroke-dashoffset: 210px; }
+
+.start-animate-page .map__territory--is-active {
+  stroke: #95c1d0;
+  stroke-width: 2;
+  stroke-dasharray: 340;
+  stroke-dashoffset: 340px;
+  animation: mapAll 3.5s;
+  animation-fill-mode: forwards; }
+
+.next-animate-page .map__territory--is-active {
+  fill: #D2E5EB !important; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(1) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(1) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(1) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(1) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(1) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(1) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(1) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(1) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 3s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(2) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(2) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(2) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(2) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(2) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(2) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(2) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(2) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(3) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(3) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(3) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(3) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(3) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(3) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(3) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(3) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(4) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(4) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(4) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(4) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(4) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(4) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(4) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(4) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 3.9s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(5) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(5) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(5) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(5) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(5) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(5) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(5) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(5) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 4.2s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(6) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(6) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(6) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(6) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(6) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(6) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(6) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(6) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(7) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(7) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(7) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(7) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 4.1s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(7) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(7) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(7) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(7) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 4.8s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(8) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(8) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 4.1s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(8) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(8) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 4.4s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(8) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(8) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(8) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(8) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 5.1s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(9) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(9) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 4.4s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(9) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(9) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 4.7s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(9) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(9) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(9) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(9) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 5.4s;
+    animation-fill-mode: forwards; }
+
+.start-animate-page .hilight-country,
+.next-animate-page .hilight-country {
+  /* STEP 1 START LINE */
+  /* STEP 2 START CIRCLE */
+  /* STEP 2 START FLAG*/ }
+  .start-animate-page .hilight-country:nth-child(10) .hilight-country__line,
+  .next-animate-page .hilight-country:nth-child(10) .hilight-country__line {
+    animation: drawline ease 0.5s;
+    animation-delay: 4.7s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(10) .hilight-country__circle,
+  .next-animate-page .hilight-country:nth-child(10) .hilight-country__circle {
+    animation: drawline 0.5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards; }
+  .start-animate-page .hilight-country:nth-child(10) .hilight-country__flag,
+  .start-animate-page .hilight-country:nth-child(10) .hilight-country__value,
+  .next-animate-page .hilight-country:nth-child(10) .hilight-country__flag,
+  .next-animate-page .hilight-country:nth-child(10) .hilight-country__value {
+    animation: showMap 0.5s;
+    /*animation: jello 0.5s linear both;*/
+    animation-delay: 5.7s;
+    animation-fill-mode: forwards; }
+
+.about-indicator__icon,
+.about-indicator__text {
+  opacity: 0;
+  transition: all ease 1s; }
+
+.hilight-country,
+.value-indicator__container,
+.map__legend {
+  opacity: 1;
+  transition: all ease 0.5s; }
+
+.next-animate-page .hilight-country,
+.next-animate-page .value-indicator__container,
+.next-animate-page .map__legend {
+  opacity: 0 !important; }
+
+.start-animate-page .about-indicator__icon,
+.start-animate-page .about-indicator__text {
+  opacity: 1; }
+
+.start-animate-page .hilight-country {
+  transition-delay: 1.5s; }
+
+.about-indicator__value__animate .text-wrapper {
+  position: relative; }
+
+.about-indicator__value__animate .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #44acde;
+  transform-origin: 0 50%; }
+
+.about-indicator__value__animate .line1 {
+  top: 0;
+  left: 0; }
+
+.about-indicator__value__animate .letter {
+  display: inline-block; }
+
+@keyframes mapAll {
+  0% {
+    stroke-dashoffset: 340px;
+    fill: #D2E5EB; }
+  33% {
+    stroke-dashoffset: 0px;
+    fill: #fff;
+    stroke-width: 3; }
+  100% {
+    stroke-dashoffset: 0px;
+    stroke-width: 0; } }
+
+@keyframes drawline {
+  100% {
+    stroke-dashoffset: 0px; } }
+
+@keyframes showMap {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.disable-scroll {
+  overflow: hidden; }
+
+.indicator-nav {
+  position: fixed;
+  transition: all ease 0.6s; }
+  .indicator-nav__is-close {
+    top: calc(100vh - 65px); }
+  .indicator-nav__is-open {
+    top: calc(0vh); }
+  .indicator-nav__is-open .indicator-nav__is-scroll {
+    height: 100vh; }
+  .indicator-nav__is-scroll .simplebar-scroll-content {
+    padding-top: 5px; }
+
+/*
+.indicator-data-source__transition:hover{
+    transform: translate(0px,-75px);
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border:1px solid white !important;
+
+}
+*/
+/* 
+    .hilight-country{
+      &__line{
+        animation: drawline ease 0.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    } 
+        
+    &__circle{
+        animation: drawline 0.5s;
+        animation-delay:  1.5s;
+        animation-fill-mode: forwards;
+    }
+
+    &__flag,
+    &__value{
+        animation: showMap 0.5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }    
+}
+
+*/

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164642588-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164642588-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Editor's Dependecy Style -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css"
+  />
+  <!-- Editor's Style -->
+  <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+<style>
+  h1{
+    text-align: center;
+    font-size:5em;
+    color:#222;
+    margin-bottom:25px;
+  }
+  body{
+    background:#333;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .container{
+    margin:0px auto;
+    padding:10px;
+    min-width: 380px;;
+    max-width:600px;
+    border-radius:10px; 
+    background:#eee;
+  }
+</style>
+</head>
+<body>
+
+  <h1>NOTE.TK V.1.0</h1>
+  <div class="container">
+    <div id="editor"></div>
+  </div>
+  
+  
+  <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+  <script>
+    const Editor = toastui.Editor;
+    
+    const editor = new Editor({
+      el: document.querySelector('#editor')
+    });
+  </script>
+</body>
+</html>

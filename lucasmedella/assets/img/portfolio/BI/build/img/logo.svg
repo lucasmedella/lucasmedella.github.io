@@ -1,0 +1,16 @@
+<svg width="485" height="171" viewBox="0 0 485 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo">
+<rect width="485" height="171" fill="white"/>
+<g id="bpm">
+<text id="bpm__text" fill="#0082A5" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="57.666" font-style="italic" font-weight="900" letter-spacing="0.01em"><tspan x="187.572" y="150.233">UTI</tspan></text>
+<g id="bpm__line">
+<path id="bpm__line__end" d="M55.7677 135.284L57.9938 133.752C57.4896 133.02 56.6571 132.582 55.7677 132.582V135.284ZM69.1663 154.754L66.9402 156.286C67.4923 157.088 68.4333 157.532 69.4034 157.446C70.3734 157.361 71.2225 156.76 71.6258 155.874L69.1663 154.754ZM86.124 117.489L88.708 116.699C88.3794 115.625 87.4206 114.866 86.2997 114.793C85.1788 114.72 84.1296 115.348 83.6644 116.37L86.124 117.489ZM100.151 163.338L97.5667 164.128C97.9191 165.28 98.9916 166.06 100.196 166.039C101.401 166.019 102.446 165.204 102.76 164.041L100.151 163.338ZM109.572 128.375V125.673C108.35 125.673 107.28 126.493 106.962 127.672L109.572 128.375ZM171.834 131.078C173.327 131.078 174.537 129.868 174.537 128.375C174.537 126.883 173.327 125.673 171.834 125.673V131.078ZM26.3223 132.582C24.8299 132.582 23.62 133.792 23.62 135.284C23.62 136.777 24.8299 137.987 26.3223 137.987V132.582ZM71.6258 155.874L88.5835 118.608L83.6644 116.37L66.7067 153.635L71.6258 155.874ZM83.5399 118.28L97.5667 164.128L102.735 162.547L88.708 116.699L83.5399 118.28ZM102.76 164.041L112.181 129.079L106.962 127.672L97.5415 162.634L102.76 164.041ZM109.572 131.078H171.834V125.673H109.572V131.078ZM26.3223 137.987H55.7677V132.582H26.3223V137.987ZM53.5416 136.816L66.9402 156.286L71.3924 153.222L57.9938 133.752L53.5416 136.816Z" fill="#CBCDCE"/>
+<path id="bpm__line__start" d="M310.057 128.343H457.319" stroke="#CBCDCE" stroke-width="5.4045" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="logo__text">
+<text transform="rotate(-0.331129)" fill="#FFA73D" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="40.5337" font-style="italic" font-weight="900" letter-spacing="-0.01em"><tspan x="99.9733" y="43.5449">Benchmarking&#10;</tspan></text>
+<text transform="rotate(-0.331129)" fill="#0082A5" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="29.7247" font-style="italic" letter-spacing="-0.01em"><tspan x="122.176" y="74.4984">INTERNACIONAL</tspan></text>
+</g>
+</g>
+</svg>

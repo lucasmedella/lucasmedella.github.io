@@ -1,0 +1,12 @@
+<svg width="485" height="10" viewBox="0 0 485 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo_bars" clip-path="url(#clip0)">
+<rect id="bar" x="402.698" y="0.129395" width="9.87068" height="177.499" transform="rotate(90 402.698 0.129395)" fill="#0082A5"/>
+<rect id="bar_2" x="338.357" width="10" height="159.68" transform="rotate(90 338.357 0)" fill="#42C1E3"/>
+<rect id="bar_3" x="183.016" y="0.129395" width="9.87068" height="100.713" transform="rotate(90 183.016 0.129395)" fill="#FFA73D"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="485" height="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>
