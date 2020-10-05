@@ -11,6 +11,21 @@
   gtag('config', 'UA-164642588-1');
 </script>
 
+
+<script>
+/**
+* Função que acompanha um clique em um link externo no Google Analytics.
+* Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+* como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
+* usando 'navigator.sendBeacon' em um navegador compatível.
+*/
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -22,6 +37,8 @@
   <!-- Editor's Style -->
   <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+
 
 <style>
   h1{
@@ -51,6 +68,8 @@
   <div class="container">
     <div id="editor"></div>
   </div>
+  
+  <a href="http://www.example.com" onclick="captureOutboundLink('http://www.example.com'); return false;">Check out example.com</a>
   
   
   <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
